@@ -1,0 +1,30 @@
+section.repository-list {
+    margin: 4rem;
+    
+    h1 {
+        margin-bottom: 1.6rem;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            & + li { /*Hack para não adicionar um margin bottom na ultima li*/
+                margin-top: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1.4rem;
+            color: #444;
+            margin-top: .8rem;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 1.6rem;
+            text-decoration: none;
+            color: #8857E6;
+        }
+    }
+}

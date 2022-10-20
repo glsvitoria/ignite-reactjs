@@ -16,15 +16,23 @@ createServer({
                title: 'Freelance de Website',
                type: 'deposit',
                category: 'Dev',
-               amount: 6000,
+               amount: 4000,
                createdAt: new Date('2022-08-20 10:00:00')
             },
             {
                id: 2,
-               title: 'Comprar fundos imobiliários',
+               title: 'Investir em fundos',
                type: 'withdraw',
                category: 'Investimento',
-               amount: 1000,
+               amount: 1500,
+               createdAt: new Date('2022-09-02 14:00:00')
+            },
+            {
+               id: 3,
+               title: 'Viagem para interior',
+               type: 'withdraw',
+               category: 'Viagem',
+               amount: 2000,
                createdAt: new Date('2022-09-02 14:00:00')
             }
          ]

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Box, Flex, Image, Text } from '@chakra-ui/react'
+import Head from 'next/head'
 import { Header } from '../components/Header'
 import { SwiperContinents } from '../components/Swiper/SwiperContinents'
 import { TraverTypes } from '../components/TravelTypes/TravelTypes'
@@ -7,6 +8,10 @@ import { TraverTypes } from '../components/TravelTypes/TravelTypes'
 export default function Home() {
 	return (
 		<>
+         <Head>
+            <title>WorldTrip | Home</title>
+         </Head>
+
 			<Header />
 
 			<Flex as="main" flexDirection="column">
